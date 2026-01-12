@@ -89,6 +89,13 @@ const courseSchema = new mongoose.Schema({
         type: Boolean,
         default: false
     },
+    ratingDistribution: {
+        type: [{
+            rating: Number,
+            percentage: Number
+        }],
+        default: []
+    },
     free: {
         type: Boolean,
         default: false
