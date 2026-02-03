@@ -1891,7 +1891,7 @@ const courses = [
   },
   {
     "id": "digital-marketing",
-    "title": "Digital Marketing Mastery 2024",
+    "title": "Digital Marketing Mastery 2026",
     "slug": "digital-marketing-mastery",
     "ratingDistribution": [
       {
@@ -11816,7 +11816,7 @@ const courses = [
     ]
   },
   {
-    "id": "course-vuejs-essentials-2024",
+    "id": "course-vuejs-essentials-2026",
     "title": "Vue.js 3 Essentials - Fast-Track for Beginners",
     "slug": "vuejs-3-essentials-fasttrack",
     "category": "Web Development",
@@ -26831,9 +26831,9 @@ const courses = [
     ]
   },
   {
-    "id": "course-seo-2024",
-    "title": "Complete SEO Mastery 2024 - Rank #1 on Google",
-    "slug": "complete-seo-mastery-2024",
+    "id": "course-seo-2026",
+    "title": "Complete SEO Mastery 2026 - Rank #1 on Google",
+    "slug": "complete-seo-mastery-2026",
     "category": "Marketing",
     "level": "Beginner",
     "rating": 3.7,
