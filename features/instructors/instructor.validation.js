@@ -11,6 +11,7 @@ const createInstructorValidation = [
     body('courses').optional().isInt({ min: 0 }).withMessage('Courses must be a positive integer'),
     body('students').optional().isInt({ min: 0 }).withMessage('Students must be a positive integer'),
     body('specializations').optional().isArray().withMessage('Specializations must be an array'),
+    body('qualification').optional().isString().trim(),
     body('social.linkedin').optional().isString(),
     body('social.twitter').optional().isString(),
     body('social.website').optional().isString()
@@ -25,7 +26,8 @@ const updateInstructorValidation = [
     body('rating').optional().isFloat({ min: 0, max: 5 }),
     body('courses').optional().isInt({ min: 0 }),
     body('students').optional().isInt({ min: 0 }),
-    body('specializations').optional().isArray()
+    body('specializations').optional().isArray(),
+    body('qualification').optional().isString().trim()
 ];
 
 const getInstructorByIdValidation = [

@@ -9,6 +9,7 @@ const instructors = [
         students: 259554,
         rating: 4.7,
         specializations: ["Web Development", "Marketing", "Business", "E-commerce"],
+        qualification: "Ph.D. in Computer Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -21,6 +22,7 @@ const instructors = [
         students: 163098,
         rating: 4.8,
         specializations: ["Data Science", "Design", "AI", "Business"],
+        qualification: "M.Tech. in Information Technology",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -33,6 +35,7 @@ const instructors = [
         students: 145740,
         rating: 4.8,
         specializations: ["Web Development", "Design", "Software Architecture"],
+        qualification: "M.S. in Data Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -45,6 +48,7 @@ const instructors = [
         students: 72540,
         rating: 4.7,
         specializations: ["Web Development", "Career"],
+        qualification: "B.Tech. in Software Engineering",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -57,6 +61,7 @@ const instructors = [
         students: 83700,
         rating: 4.8,
         specializations: ["Mobile", "Web Development", "Business"],
+        qualification: "MBA in Business Analytics",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -69,6 +74,7 @@ const instructors = [
         students: 97800,
         rating: 4.8,
         specializations: ["Design", "Product", "Business"],
+        qualification: "M.Sc. in Cybersecurity",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -81,6 +87,7 @@ const instructors = [
         students: 31830,
         rating: 4.8,
         specializations: ["Data Science"],
+        qualification: "Ph.D. in Computer Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -93,6 +100,7 @@ const instructors = [
         students: 52600,
         rating: 4.8,
         specializations: ["Security", "Cybersecurity"],
+        qualification: "M.Tech. in Information Technology",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -105,6 +113,7 @@ const instructors = [
         students: 128350,
         rating: 4.7,
         specializations: ["Data Science", "Scripting", "Data Engineering", "Database"],
+        qualification: "M.S. in Data Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -117,6 +126,7 @@ const instructors = [
         students: 38000,
         rating: 4.7,
         specializations: ["Technology", "Web Development", "Blockchain", "Programming"],
+        qualification: "B.Tech. in Software Engineering",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -129,6 +139,7 @@ const instructors = [
         students: 66100,
         rating: 4.7,
         specializations: ["Design"],
+        qualification: "MBA in Business Analytics",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -141,6 +152,7 @@ const instructors = [
         students: 96400,
         rating: 4.8,
         specializations: ["Design", "Web Development", "Game Development", "Desktop Development"],
+        qualification: "M.Sc. in Cybersecurity",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -153,6 +165,7 @@ const instructors = [
         students: 64800,
         rating: 4.7,
         specializations: ["DevOps"],
+        qualification: "Ph.D. in Computer Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -165,6 +178,7 @@ const instructors = [
         students: 21600,
         rating: 4.6,
         specializations: ["Product", "Web Development", "Business"],
+        qualification: "M.Tech. in Information Technology",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -177,6 +191,7 @@ const instructors = [
         students: 46300,
         rating: 4.7,
         specializations: ["Web Development"],
+        qualification: "M.S. in Data Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -189,6 +204,7 @@ const instructors = [
         students: 53200,
         rating: 4.8,
         specializations: ["Data Science", "Emerging Technology", "Machine Learning", "Artificial Intelligence"],
+        qualification: "B.Tech. in Software Engineering",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -201,6 +217,7 @@ const instructors = [
         students: 18500,
         rating: 4.9,
         specializations: ["Artificial Intelligence"],
+        qualification: "MBA in Business Analytics",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -213,6 +230,7 @@ const instructors = [
         students: 4283,
         rating: 4.8,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "M.Sc. in Cybersecurity",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -225,6 +243,7 @@ const instructors = [
         students: 5729,
         rating: 4.7,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "Ph.D. in Computer Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -237,6 +256,7 @@ const instructors = [
         students: 4283,
         rating: 4.5,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "M.Tech. in Information Technology",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -249,6 +269,7 @@ const instructors = [
         students: 4589,
         rating: 4.8,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "M.S. in Data Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -261,6 +282,7 @@ const instructors = [
         students: 3250,
         rating: 4.9,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "B.Tech. in Software Engineering",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -273,6 +295,7 @@ const instructors = [
         students: 3626,
         rating: 4.8,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "MBA in Business Analytics",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -285,6 +308,7 @@ const instructors = [
         students: 2607,
         rating: 5.0,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "M.Sc. in Cybersecurity",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -297,6 +321,7 @@ const instructors = [
         students: 5355,
         rating: 4.8,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "Ph.D. in Computer Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -309,6 +334,7 @@ const instructors = [
         students: 4426,
         rating: 4.7,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "M.Tech. in Information Technology",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -321,6 +347,7 @@ const instructors = [
         students: 1981,
         rating: 4.5,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "M.S. in Data Science",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -333,6 +360,7 @@ const instructors = [
         students: 2620,
         rating: 4.8,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "B.Tech. in Software Engineering",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -345,6 +373,7 @@ const instructors = [
         students: 1182,
         rating: 5.0,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "MBA in Business Analytics",
         social: { linkedin: "#", twitter: "#", website: "#" },
     },
     {
@@ -357,6 +386,7 @@ const instructors = [
         students: 5634,
         rating: 4.6,
         specializations: ["General Engineering", "Soft Skills"],
+        qualification: "M.Sc. in Cybersecurity",
         social: { linkedin: "#", twitter: "#", website: "#" },
     }
 ];

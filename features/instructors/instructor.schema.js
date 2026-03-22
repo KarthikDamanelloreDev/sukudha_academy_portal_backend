@@ -45,6 +45,11 @@ const instructorSchema = new mongoose.Schema({
         type: [String],
         default: []
     },
+    qualification: {
+        type: String,
+        trim: true,
+        default: ''
+    },
     social: {
         linkedin: { type: String, default: '#' },
         twitter: { type: String, default: '#' },
