@@ -7,6 +7,7 @@ const courseRoutes = require('../features/courses/course.routes');
 const instructorRoutes = require('../features/instructors/instructor.routes');
 const contactInfoRoutes = require('../features/contact-info/contact-info.routes');
 const overviewRoutes = require('../features/overview/overview.routes');
+const careerRoutes = require('../features/careers/career.routes');
 
 // Mount routes
 router.use('/auth', authRoutes);
@@ -14,6 +15,7 @@ router.use('/courses', courseRoutes);
 router.use('/instructors', instructorRoutes);
 router.use('/contact-info', contactInfoRoutes);
 router.use('/overview', overviewRoutes);
+router.use('/careers', careerRoutes);
 
 // Health check route
 router.get('/health', (req, res) => {
